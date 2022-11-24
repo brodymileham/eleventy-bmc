@@ -1,0 +1,23 @@
+{
+  "name": "eleventy-bmc",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brodymileham/eleventy-bmc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brodymileham/eleventy-bmc/issues"
+  },
+  "homepage": "https://github.com/brodymileham/eleventy-bmc#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
