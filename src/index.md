@@ -1,9 +1,10 @@
 ---
-title: 'Benji Marritt Construction'
+title: 'Home'
+metaDesc: 'Local plasterer based in Goole and surrounding areas'
 layout: 'layouts/home.html'
 intro:
   eyebrow: '8+ Years Experience'
-  main: 'Benji Marritt Construction'
+  main: 'Marritt Plastering Services'
   summary: 'No Job Too Big, No Job Too Small'
   buttonText: 'See our work'
   buttonUrl: '/work'

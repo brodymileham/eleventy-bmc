@@ -29,5 +29,5 @@ gallery:
   - title: 'Plastered and painted'
     summary: 'All plastered and painted and this open kitchen/dining room plan is coming together very nicely!'
     image: '/images/work/extention_3.jpg'
-team: [1, 4, 6]
+team: [1]
 ---
