@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<div class="wrapper">
+    <form method='POST' name='contact' netlify>
+        <input type='hidden' name='form-name' value='contact' />
+        <ol class="[ field-list ]">
+            <li class="[ field-list__field-group ]">
+                <label class="question__label" for="field-name">What’s your name?</label>
+                <br>
+                <input class="question__field" type="text" name="name" id="field-name" required="" aria-required="true" placeholder="Your Name" autocomplete="name" autocorrect="off" autocapitalize="off">
+            </li>
+            <li class="[ field-list__field-group ]">
+                <label class="question__label" for="field-email">What’s your email address?</label>
+                <br>
+                <input class="question__field" type="email" name="email" id="field-email" required="" aria-required="true" placeholder="Your Email" autocomplete="email">
+            </li>
+            <li class="[ field-list__field-group ]">
+                <label class="question__label" for="field-message">What can we help you with?</label>
+                <br>
+                <textarea class="textareawidth" id="field-message" name="message" rows="5" cols="50" required="" aria-required="true" spellcheck="true" autocapitalize="sentences">
+                </textarea>
+            </li>
+            <li hidden="">
+                <label>Don’t fill this out if you're human: 
+                <input name="bot-field">
+                </label>
+            </li>
+        </ol>
+        <button type="submit" class="[ button ] [ font-base text-base weight-bold ]">Send message</button>
+    </form>
+</div>
+{% endblock %}
