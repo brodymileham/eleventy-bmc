@@ -4,7 +4,7 @@
     display: inline-block;
     padding: 0.5rem 2rem;
     background: get-color('quaternary-glare');
-    color: get-color('dark-shade');
+    color: get-color('light');
     border: 2px solid;
     text-transform: uppercase;
     text-decoration: none;
@@ -15,13 +15,13 @@
   
     // Make sure hover state trumps all variants with a good ol’ important
     &:hover {
-      background: get-color('quaternary') !important;
+      background: get-color('quinary') !important;
       color: get-color('dark-shade') !important;
     }
   
     // Add a ghost modifier
     &[data-variant='ghost'] {
       background: transparent;
-      color: get-color('quaternary-glare');
+      color: get-color('light');
     }
   }
