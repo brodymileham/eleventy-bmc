@@ -3,7 +3,7 @@ title: 'Contact us'
 layout: 'layouts/page.html'
 ---
 
-<form name="contact" netlify class="[ signup__form ] [ flow ]">
+<!-- <form name="contact" netlify class="[ signup__form ] [ flow ]">
   <label>Name <input
       type="text"
       name="name"
@@ -36,5 +36,5 @@ layout: 'layouts/page.html'
       <span class="visually-hidden">Submit email</span>Submit
       </button>
 </form>
-<div aria-atomic="true" role="alert" class="signup__alert"></div>
+<div aria-atomic="true" role="alert" class="signup__alert"></div> -->
 
