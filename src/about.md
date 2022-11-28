@@ -1,5 +1,5 @@
 ---
-title: 'About Marritt Plastering Services'
+title: 'About Us'
 layout: 'layouts/about.html'
 permalink: '/about-us/index.html'
 ---

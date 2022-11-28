@@ -1,5 +1,8 @@
 {% extends "layouts/base.html" %}
+
 {% block content %}
+{% set pageHeaderTitle = title %}
+{% include "partials/page-header.html" %}
 <div class="wrapper">
     <form method='POST' name='contact' netlify>
         <input type='hidden' name='form-name' value='contact' />

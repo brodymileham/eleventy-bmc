@@ -1,5 +1,5 @@
 ---
-title: 'Updates from Benji Marritt Construction'
+title: 'Updates'
 layout: 'layouts/feed.html'
 pagination:
   data: collections.blog
@@ -10,4 +10,4 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 ---
 
-Latest Updates
+Keep updated with the latest updates from us here!
