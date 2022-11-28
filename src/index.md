@@ -19,5 +19,5 @@ featuredWork:
   title: 'Featured work'
   summary: 'See what we are all about!'
 studioFeed:
-  title: 'From inside the studio'
+  title: 'Check out my Instagram!'
 ---
